@@ -2,11 +2,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <limit.h>
+#include <limits.h>
 #include "stack.h"
 
 Stack* createStack(int capacity) {
-  s = (Stack*)malloc(sizeof(Stack));
+  Stack* s = (Stack*)malloc(sizeof(Stack));
   s->capacity = capacity;
   s->top = -1;
   s->array = (int*)malloc(sizeof(int)*capacity);
