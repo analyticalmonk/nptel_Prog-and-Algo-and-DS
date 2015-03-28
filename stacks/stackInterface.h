@@ -1,6 +1,6 @@
 // stackInterface.h created with all the function prototypes
 
-include "stack.h"
+#include "stack.h"
 
 // Create the stack
 Stack* createStack(int); //Creates the array version of the stack
